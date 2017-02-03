@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bootcamp-hiten-nodered
+  host: bootcamp-hiten-nodered
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - bootcamp-ismaeel-messagehub
+  - bootcamp-hiten-nodered-cloudantNoSQLDB
+  - bootcamp-hiten-nodered-iotf-service
